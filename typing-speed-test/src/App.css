@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.sentence {
+  font-weight: bold;
+}
+
+h2 {
+  color: green;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #007bff;
+}
